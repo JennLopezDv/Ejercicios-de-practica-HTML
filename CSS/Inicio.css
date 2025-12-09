@@ -1,0 +1,22 @@
+
+
+.contenedor-cartas{
+    background-color: rgb(8, 8, 1);
+    display: grid;   
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;      
+}
+.carta a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;   
+}
+.carta img{   
+    width: 250px;     
+    height: 250px;      
+    border-radius: 100%;
+    object-fit: cover;  
+    margin-left: 6rem;   
+}
