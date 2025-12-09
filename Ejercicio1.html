@@ -2,28 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagenes/FaviconAventura.png" type="favicon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joti+One&display=swap" rel="stylesheet">
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">    
     <title>Portal Aventuras Extremas</title>
+    <link rel="stylesheet" href="../CSS/Ejercicio1.css">
 </head>
 <body>
-    <header>
-        <img src="../imagenes/logo_Aventura.jpg" alt="Logo_Aventura">
-        <h1> Aventuras Extremas </h1>
+    <header>        
+        <img src="../imagenes/logo_Aventura.png" alt="Logo_Aventura">
+        <h1 class="Letra_encabezado"> Aventuras Extremas </h1>
+       
     </header>
     <nav class="Barra_navegacion">
+        <a href="../Inicio.html">Inicio</a>
         <a href="#Destinos">Destinos</a>
         <a href="#Guias">Guías</a>
         <a href="#Rutas">Rutas</a>
         <a href="#Contacto">Contacto</a>
     </nav>
-    <section>
-        <p>Aquí, cada destino es un reto, cada paso una historia y cada grito… pura diversión. <br>
-            Bienvenido a un mundo donde viajar ya no es solo conocer, <br>
+    <section class="Presentacion">
+        <p>Aquí, cada destino es un reto, cada paso una historia y cada grito… pura diversión!
+            Bienvenido a un mundo donde viajar ya no es solo conocer,
             ¡sino sentir que el corazón hace maletas también!</p>
     </section>
 
     <div class="Articulos">
-
         <article class="Mision">
             <h2>Misión</h1>
             <p>Encender la chispa aventurera de cada viajero, <br>
@@ -37,24 +46,30 @@
                 guiando hacia un mundo donde cada viaje sea más salvaje, <br>
                 divertido y épico que el anterior.</p>
         </article>
-
-        <section id="paracaidismo">
-            <h3>Paracaídismo</h3>
-        </section>
-
-        <section id="rafting">
-            <h3>Rafting</h3>
-        </section>
-
-        <section id="wingsuit">
-            <h3>Wingsiut</h3>
-        </section>
     </div>
+
+    <section class="Planes">
+        <article id="paracaidismo">
+            <h3>Paracaídismo</h3>
+            <img src="./imagenes/Paracaidismo.png" alt="paracaidismo">
+        </article>
+
+        <article id="rafting">
+            <h3>Rafting</h3>
+            <img src="./imagenes/Rafting.png" alt="rafting">
+        </article>
+
+        <article id="wingsuit">
+            <h3>Wingsiut</h3>
+            <img src="./imagenes/Wuits.png" alt="wingsuits">
+        </article>
+    </section>
+    
     <footer class="Piecitos">
-        <p></p>
-        <a class="facebook" href="#">Facebook</a>
-        <a class="Instagram" href="#">Instagram</a>
-        <a class="X" href="#">X</a>
+        <p>© Todos los derechos reservados.</p>
+        <a class="facebook" href="#"><img src="./imagenes/iconoFace.png" alt="">Facebook</a>
+        <a class="Instagram" href="#"><img src="./imagenes/iconoInsta.png" alt="">Instagram</a>
+        <a class="Twitter" href="#"><img src="./imagenes/iconoX.png" alt="">Twitter</a>
     </footer>
     
 </body>

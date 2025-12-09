@@ -1,0 +1,163 @@
+header{
+    background-image: url("../imagenes/Encabezado.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    text-align: center;   
+
+}
+.Letra_encabezado{
+    font-family: "Joti One", serif;
+    font-size: 85px;
+    background-color: rgb(146, 90, 75);
+    color:rgb(224, 224, 159);
+    text-align: center;    
+    
+}
+.Letra_encabezado:hover{
+    text-shadow: 5px 5px 10px rgb(16, 1, 1);  
+}
+.Barra_navegacion{
+    background-color: rgb(193, 150, 87);
+    text-align: center;
+    font-size: 50px;
+    display: flex;    
+    gap: 5rem;
+    justify-content: center; 
+    
+}
+.Barra_navegacion:hover{
+    box-shadow: 0 0 35px rgb(21, 34, 1);
+}
+.Barra_navegacion a{
+    text-decoration: none;
+    font-family: "Joti One", serif;         
+    color: black;       
+}
+.Barra_navegacion a:hover{
+    transform: translateY(-5px);
+    text-shadow: 2px 2px 4px rgb(241, 241, 240);   
+}
+.Presentacion{
+    box-shadow:  0 0 10px rgba(22, 0, 0, 0.1);
+    padding: 10px;
+    margin: 5px;
+}
+.Presentacion p{
+    font-family: "Joti One", serif;
+    text-align: center;
+    font-size: 25px;
+}
+.Articulos{    
+    padding: 2px;
+    margin: 25px;
+    display: flex;    
+    gap: 5rem;
+    justify-content: center; 
+}
+.Mision{   
+    text-align: center ;
+    padding: 5px;
+    border: solid black 2px;
+    font-family: "Joti One", serif;
+    background-color: rgba(227, 236, 187, 0.688);
+}
+.Vision{
+    text-align:center;
+    padding: 4px;
+    border: solid black 2px;
+    font-family: "Joti One", serif;
+    background-color: rgba(236, 233, 187, 0.688);
+}
+.Planes{
+    background-color: rgba(245, 248, 211, 0.436);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    padding: 1px;    
+}
+#paracaidismo{
+    text-align: center;    
+}
+#paracaidismo h3{   
+    font-family: "Joti One", serif;
+}
+#paracaidismo img{
+    width: 250px;     
+    height: 250px;      
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 1px; 
+    
+}
+#paracaidismo img:hover{
+    background-color: rgb(134, 136, 3);
+    box-shadow:  0 0 10px rgba(218, 233, 6, 0.899);
+}
+#rafting{
+    text-align: center;
+}
+#rafting h3{
+    font-family: "Joti One", serif;
+}
+#rafting img{
+    width: 250px;     
+    height: 250px;      
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 1px; 
+}
+#rafting img:hover{
+    background-color: rgb(134, 136, 3);
+    box-shadow:  0 0 10px rgba(218, 233, 6, 0.899);
+}
+#wingsuit{
+    text-align: center;
+}
+#wingsuit h3{
+    font-family:"Joti One", serif;
+}
+#wingsuit img{
+    width: 250px;     
+    height: 250px;      
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 1px;
+}
+#wingsuit img:hover{
+    background-color: rgb(134, 136, 3);
+    box-shadow:  0 0 10px rgba(218, 233, 6, 0.899);
+}
+.Piecitos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5rem;
+    gap: 1.5rem;
+ 
+}
+.Piecitos a{
+    text-decoration: none;
+    color: black;    
+}
+.facebook img{
+    width: 25px;     
+    height: 25px;      
+    border-radius: 100%;
+    object-fit: cover;
+   
+}
+.Instagram img{
+    width: 25px;     
+    height: 25px;      
+    border-radius: 100%;
+    object-fit: cover;
+   
+}
+.Twitter img{
+    width: 25px;     
+    height: 25px;      
+    border-radius: 100%;
+    object-fit: cover;
+  
+}
